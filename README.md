@@ -1,0 +1,6 @@
+# MyFreeStyleDemo
+DIY FreeStyle project
+本项目有一些自定义的控件，大都是总结的别人的，包括(1.有果冻弹出效果的菜单控件ActionMenu和圆形效果的菜单控件CircleMenu，2.带有波纹效果的指示器DropIndicator
+DropViewPager，3.仿购物车点击下落后有烟花效果的ParabolaView BoomView)
+还有一些是RecycleView的布局练习，均可以拖动排序，还可以滑动删除。关键是还可以点击看美女大图
+在本项目的欢迎页面上添加了一个通过路径vector实现的动画效果，以及自定义一个textView实现倒计时跳转页面和点击跳转页面。
