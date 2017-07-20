@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    android:id="@+id/rl"
+    tools:context="com.example.qq.mycoordinatordemo.MainActivity">
+    <com.example.qq.mycoordinatordemo.view.ParabolaView
+        android:id="@+id/parent_panel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/bg_other"/>
+    <com.example.qq.mycoordinatordemo.view.BoomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boomView" />
+
+    <com.richpath.RichPathView
+        android:id="@+id/ic_command"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        app:vector="@drawable/ic_command"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/drop_indicator"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_shape_text"
+        android:text="波纹指示器"/>
+    <Button
+        android:id="@+id/jelly_activity"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_shape_text"
+        android:layout_alignParentBottom="true"
+        android:text="弹性果冻"/>
+    <Button
+        android:id="@+id/circle_menu"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/circle_shape_text"
+        android:text="圆形菜单"/>
+    <Button
+        android:id="@+id/butter_knife"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Butter Knife"
+        android:visibility="gone"/>
+</RelativeLayout>

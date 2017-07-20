@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropIndicator">
+        <attr name="color1" format="color"></attr>
+        <attr name="color2" format="color"></attr>
+        <attr name="color3" format="color"></attr>
+        <attr name="color4" format="color"></attr>
+        <attr name="click_color" format="color"></attr>
+        <attr name="circle_color" format="color"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="scale" format="float"></attr>
+        <attr name="duration" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ActionMenu">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="dimens" format="dimension" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="buttonNormalColor" format="color" />
+        <attr name="buttonPressColor" format="color" />
+        <attr name="actionMenuIcon" format="reference" />
+        <attr name="actionMenuOnIcon" format="reference" />
+        <attr name="expandDirect"/>
+    </declare-styleable>
+
+    <attr name="expandDirect">
+        <enum name="expandDirectTop" value="0"/>
+        <enum name="expandDirectDown" value="1"/>
+        <enum name="expandDirectLeft" value="2"/>
+        <enum name="expandDirectRight" value="3"/>
+    </attr>
+
+    <declare-styleable name="CircleMenu">
+        <attr name="start_angle" format="integer"/>
+        <attr name="toggle_animation_duration" format="integer"/>
+        <attr name="select_animation_duration" format="integer"/>
+        <attr name="exit_animation_duration" format="integer"/>
+        <attr name="distance" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleMenuButton">
+        <attr name="colorPressed" format="color"/>
+        <attr name="colorDisabled" format="color"/>
+        <attr name="colorNormal" format="color"/>
+        <attr name="icon" format="reference"/>
+    </declare-styleable>
+</resources>

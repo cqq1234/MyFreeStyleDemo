@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    tools:context="com.example.qq.mycoordinatordemo.ui.activity.WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To..."
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+    <com.richpath.RichPathView
+        android:id="@+id/ic_android"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
+        app:vector="@drawable/ic_android" />
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/streetball"/>
+
+    <com.example.qq.mycoordinatordemo.view.DIYTextView
+        android:id="@+id/tv_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:gravity="center"
+        android:background="@drawable/circle_shape_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/white"
+        android:text="哈哈哈哈哈哈"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="你有freestyle吗"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

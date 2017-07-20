@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qq.mycoordinatordemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <!-- 水波纹指示器 -->
+        <activity android:name=".ui.activity.DropActivity" />
+        <!--果冻弹性效果-->
+        <activity
+            android:name=".ui.activity.JellyActivity"
+            android:label="@string/title_activity_jelly"
+            android:theme="@style/AppTheme"></activity>
+        <!--圆形菜单控件-->
+        <activity android:name=".ui.activity.CircleMenuActivity"/>
+        <!--注解使用练习-->
+        <activity android:name=".ui.activity.ButterKnifeActivity"/>
+        <!--recycleView练习-->
+        <activity android:name=".ui.activity.RecycleActivity"
+            android:label="@string/title_activity_line"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ui.activity.RecycleOneActivity"
+            android:label="滑动显示隐藏布局"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ui.activity.RecycleGridActivity"
+            android:label="@string/title_activity_grid"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".ui.activity.RecycleStaggeredActivity"
+            android:label="@string/title_activity_staggerde"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".utils.net.ImagePagerActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/big_picture_look"/>
+    </application>
+
+</manifest>
